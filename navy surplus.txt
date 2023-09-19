@@ -1,0 +1,29 @@
+event "Navy Surplus"
+	planet Geminus
+		add shipyard "navy-surplus"
+		add description "Due to the recent upgrades to the fleet, the Navy is selling off their old stock of ships: designs from the Alpha Wars, although with updated technology."
+	planet Prime
+		add shipyard "navy-surplus"
+		add description "Due to the recent upgrades to the fleet, the Navy is selling off their old stock of ships: designs from the Alpha Wars, although with updated technology."
+	planet Valhalla
+		add shipyard "navy-surplus"
+		add description "Due to the recent upgrades to the fleet, the Navy is selling off their old stock of ships: designs from the Alpha Wars, although with updated technology."
+	planet Luna
+		add shipyard "navy-surplus"
+		add description "Due to the recent upgrades to the fleet, the Navy is selling off their old stock of ships: designs from the Alpha Wars, although with updated technology."
+
+mission surplus_trigger
+	invisible
+	to offer
+		has "main plot completed"
+	on offer
+		event "Navy Surplus"
+
+shipyard navy-surplus
+	"Legacy Carrier"
+	"Legacy Cruiser"
+	"Legacy Frigate"
+	"Legacy Gunboat"
+	"Legacy Rainmaker"
+	"Legacy Combat Drone"
+	"Legacy Lance"
