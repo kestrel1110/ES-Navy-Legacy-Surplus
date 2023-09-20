@@ -83,7 +83,7 @@ ship "Legacy Carrier"
 
 
 
-ship "Lgacy Cruiser"
+ship "Legacy Cruiser"
 	sprite "ship/legacy-cruiser"
 	thumbnail "thumbnail/legacy-cruiser"
 	attributes
