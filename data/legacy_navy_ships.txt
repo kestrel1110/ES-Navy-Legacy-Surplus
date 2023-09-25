@@ -4,7 +4,6 @@ ship "Legacy Carrier"
 	thumbnail "thumbnail/legacy-carrier"
 	attributes
 		category "Heavy Warship"
-
 		"cost" 15200000
 		"shields" 21400
 		"hull" 8300
@@ -88,9 +87,6 @@ ship "Legacy Cruiser"
 	thumbnail "thumbnail/legacy-cruiser"
 	attributes
 		category "Heavy Warship"
-		licenses
-			Navy
-			Cruiser
 		"cost" 11200000
 		"shields" 19600
 		"hull" 6400
@@ -208,8 +204,6 @@ ship "Leacy Combat Drone"
 	thumbnail "thumbnail/legacy-combat drone"
 	attributes
 		category "Drone"
-		licenses
-			Navy
 		"cost" 83000
 		"hull" 700
 		"automaton" 1
@@ -246,8 +240,6 @@ ship "Legacy Frigate"
 	thumbnail "thumbnail/legacy-frigate"
 	attributes
 		category "Medium Warship"
-		licenses
-			Navy
 		"cost" 5200000
 		"shields" 8000
 		"hull" 2500
@@ -311,8 +303,6 @@ ship "Legacy Gunboat"
 	thumbnail "thumbnail/legacy-gunboat"
 	attributes
 		category "Light Warship"
-		licenses
-			Navy
 		"cost" 3200000
 		"shields" 5800
 		"hull" 1400
@@ -413,8 +403,6 @@ ship "Legacy Rainmaker"
 	thumbnail "thumbnail/legacy-rainmaker"
 	attributes
 		category "Light Warship"
-		licenses
-			Navy
 		"cost" 1580000
 		"shields" 3500
 		"hull" 1200
